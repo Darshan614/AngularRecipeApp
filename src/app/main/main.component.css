@@ -22,6 +22,18 @@ h1 {
   width: 100%;
   text-align: center;
 }
+h4 {
+  color: white;
+  text-shadow: -1px -1px 1px black;
+  font-family: 'Dosis', sans-serif;
+  /* text-transform: uppercase; */
+  font-size: 250%;
+  position: absolute;
+  top: 30%;
+  /* letter-spacing: 1px; */
+  width: 100%;
+  text-align: center;
+}
 .wave {
   position: absolute;
   bottom: 0;
@@ -73,5 +85,33 @@ h1 {
   }
   100% {
     background-position-x: -100vw;
+  }
+}
+
+#spin {
+  color: wheat;
+}
+#spin:after {
+  content: '';
+  animation: spin 10s linear infinite;
+}
+@keyframes spin {
+  0% {
+    content: 'React';
+  }
+  20% {
+    content: 'Angular';
+  }
+  40% {
+    content: 'NodeJS';
+  }
+  60% {
+    content: 'Express';
+  }
+  80% {
+    content: 'MongoDB';
+  }
+  100% {
+    content: 'AWS';
   }
 }
