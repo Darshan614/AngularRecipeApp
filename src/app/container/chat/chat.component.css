@@ -36,18 +36,19 @@ body {
 }
 
 .main {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(111, 163, 206, 0);
   aspect-ratio: 13/16;
   width: 400px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 82%;
+  top: 99%;
   transform: translate(-50%, -50%);
   border-radius: 30px;
   backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   overflow: hidden;
   transition: transform 1s ease, width 1s ease;
+  z-index: 1000;
 }
 .main:hover {
   width: 410px;

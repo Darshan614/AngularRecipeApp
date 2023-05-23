@@ -1,0 +1,8 @@
+<div id="live-chat">
+  <div class="chat_header" (click)="toggleChat()">Chat Header</div>
+  <div class="chat" [hidden]="!isChatVisible">Chat Content</div>
+  <div class="chat_message_counter" [hidden]="!messageCounterVisible">
+    Message Counter
+  </div>
+  <a class="chat_close" href="#" (click)="closeChat()">Close</a>
+</div>
