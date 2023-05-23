@@ -1,7 +1,9 @@
 .contain {
   position: absolute;
-  background-position: center top;
-  background-size: cover;
+  /* background-position: center top; */
+  /* background-size: cover; */
   /* background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNDQwIDMyMCc+PHBhdGggZmlsbD0nI2ZmZmZmZicgZmlsbC1vcGFjaXR5PScxJyBkPSdNMCwyMjRMNjAsMjAyLjdDMTIwLDE4MSwyNDAsMTM5LDM2MCwxMjhDNDgwLDExNyw2MDAsMTM5LDcyMCwxNDkuM0M4NDAsMTYwLDk2MCwxNjAsMTA4MCwxMzguN0MxMjAwLDExNywxMzIwLDc1LDEzODAsNTMuM0wxNDQwLDMyTDE0NDAsMzIwTDEzODAsMzIwQzEzMjAsMzIwLDEyMDAsMzIwLDEwODAsMzIwQzk2MCwzMjAsODQwLDMyMCw3MjAsMzIwQzYwMCwzMjAsNDgwLDMyMCwzNjAsMzIwQzI0MCwzMjAsMTIwLDMyMCw2MCwzMjBMMCwzMjBaJz48L3BhdGg+PC9zdmc+); */
   background: linear-gradient(to bottom, #7a19f1, #332179) !important;
+  background-repeat: no-repeat;
+  width: 100%;
 }

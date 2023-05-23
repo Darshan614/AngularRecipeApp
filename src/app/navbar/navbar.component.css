@@ -1,7 +1,17 @@
 .backg {
-  background: linear-gradient(to bottom, #7a19f1, #7a19f1) !important;
+  background: #4779f7;
   background-attachment: scroll;
   color: white !important;
   margin: 0;
+  border-bottom: 0.8px solid rgba(221, 219, 219, 0.432) !important;
   border-radius: 0;
+}
+
+.link {
+  color: white;
+  margin-right: 20px !important;
+}
+
+.title {
+  font-weight: bold;
 }
