@@ -9,12 +9,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { ChatComponent } from './container/chat/chat.component';
 
 const appRoutes: Routes = [
   { path: '', component: ContainerComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'chat', component: ChatComponent },
 ];
 
 @NgModule({
@@ -24,6 +26,7 @@ const appRoutes: Routes = [
     NavbarComponent,
     MainComponent,
     ContainerComponent,
+    ChatComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
