@@ -2,13 +2,15 @@
   <div class="chat_header" (click)="toggleChat()">Chat Header</div>
   <div class="chat" [hidden]="!isChatVisible">
     Chat Contentttttttttttttt
-    <div>a</div>
-    <div>a</div>
+    <div>
+      <div class="message">Hi May I help you?</div>
+    </div>
+    <div class="usermsg">Yes I need some help</div>
     <div>a</div>
     <div>a</div>
   </div>
   <div class="chat_message_counter" [hidden]="!messageCounterVisible">
     Message Counter
   </div>
-  <a class="chat_close" href="#" (click)="closeChat()">Close</a>
+  <a class="chat_close" href="#" (click)="closeChat()">X</a>
 </div>

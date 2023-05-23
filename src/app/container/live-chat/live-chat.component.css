@@ -120,7 +120,7 @@ p {
 }
 
 .chat_close {
-  /* background: #ffffff2e; */
+  background: #ffffff2e;
   border-radius: 50%;
   color: #fff;
   display: block;
@@ -162,4 +162,28 @@ p {
 .chat_time {
   float: right;
   font-size: 10px;
+}
+
+.owner {
+  background-color: #9a9a9a;
+  color: black;
+  font-size: 15px;
+  width: fit-content;
+}
+.message {
+  background-color: #4779f7;
+  color: white;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 10px;
+  margin-left: 2px;
+}
+
+.usermsg {
+  float: right;
+  background-color: #685858;
+  color: white;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 15opx;
 }
