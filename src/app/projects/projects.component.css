@@ -10,8 +10,13 @@
   background-size: calc(20 * 3px) calc(20 * 3px);
   background-position: 0 0, calc(10 * 15px) calc(10 * 15px);
 }
+.cardparent {
+  display: flex;
+  justify-content: center;
+}
 .content {
   background-color: #4779f7;
+
   width: 100%;
   color: black;
   font-size: 1.2rem;
@@ -22,7 +27,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  height: 300px;
+  height: 90vh;
   /* Remove following comment symbols to make container visible. */
   /*background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(3px);

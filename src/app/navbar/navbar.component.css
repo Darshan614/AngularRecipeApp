@@ -3,7 +3,7 @@
   background-attachment: scroll;
   color: white !important;
   margin: 0;
-  border-bottom: 0.8px solid rgba(221, 219, 219, 0.432) !important;
+  /* border-bottom: 0.8px solid rgba(221, 219, 219, 0.432) !important; */
   border-radius: 0;
 }
 
