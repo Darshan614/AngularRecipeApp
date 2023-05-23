@@ -1,16 +1,19 @@
 <div id="live-chat">
-  <div class="chat_header" (click)="toggleChat()">Chat Header</div>
+  <div class="chat_header" (click)="toggleChat()">Help</div>
   <div class="chat" [hidden]="!isChatVisible">
-    Chat Contentttttttttttttt
     <div>
       <div class="message">Hi May I help you?</div>
     </div>
     <div class="usermsg">Yes I need some help</div>
-    <div>a</div>
-    <div>a</div>
+    <div class="usermsg">Yes I need some help</div>
+    <div class="message">Hi May I help you?</div>
+    <div class="usermsg">Yes I need some help</div>
   </div>
   <div class="chat_message_counter" [hidden]="!messageCounterVisible">
     Message Counter
+  </div>
+  <div>
+    <input class="input" *ngIf="isChatVisible" placeholder="type here" />
   </div>
   <a class="chat_close" href="#" (click)="closeChat()">X</a>
 </div>

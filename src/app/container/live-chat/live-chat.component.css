@@ -62,6 +62,7 @@ p {
   right: 24px;
   position: fixed;
   width: 300px;
+  z-index: 1000;
 }
 
 #live-chat .chat_header {
@@ -137,7 +138,7 @@ p {
 }
 
 .chat {
-  background-color: #fff;
+  background-color: #500ab79c;
   color: red;
 }
 
@@ -173,17 +174,27 @@ p {
 .message {
   background-color: #4779f7;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   width: fit-content;
   border-radius: 10px;
   margin-left: 2px;
+  padding: 0 5px 0 5px;
+  margin-bottom: 3px;
 }
 
 .usermsg {
   float: right;
   background-color: #685858;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   width: fit-content;
-  border-radius: 15opx;
+  border-radius: 15px;
+  margin-right: 2px;
+  margin-bottom: 3px;
+}
+
+.input {
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
 }
