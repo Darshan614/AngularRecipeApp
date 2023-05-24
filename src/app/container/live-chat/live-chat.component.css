@@ -197,4 +197,11 @@ p {
   width: 100%;
   font-size: 15px;
   font-weight: bold;
+  border: 1px solid #240b50;
+  padding-bottom: 2px;
+}
+
+.reply {
+  width: 100%;
+  display: inline-block;
 }
