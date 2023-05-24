@@ -7,14 +7,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 })
 export class MainComponent implements OnInit {
   tech: string = 'React';
-  techarr: string[] = [
-    'Angular',
-    'React',
-    'NodeJS',
-    'MongoDB',
-    'Express',
-    'AWS',
-  ];
+  techarr: string[] = ['Angular', 'NodeJS', 'MongoDB', 'Express', 'AWS'];
   id: any;
   cindex: number = 0;
   constructor() {}
