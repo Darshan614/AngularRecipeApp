@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ChatComponent } from './container/chat/chat.component';
 import { LiveChatComponent } from './container/live-chat/live-chat.component';
+import { CardComponent } from './projects/card/card.component';
 
 const appRoutes: Routes = [
   { path: '', component: ContainerComponent },
@@ -29,6 +30,7 @@ const appRoutes: Routes = [
     ContainerComponent,
     ChatComponent,
     LiveChatComponent,
+    CardComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
