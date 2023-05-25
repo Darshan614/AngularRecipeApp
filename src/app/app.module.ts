@@ -11,11 +11,15 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ChatComponent } from './container/chat/chat.component';
 import { LiveChatComponent } from './container/live-chat/live-chat.component';
-import { XyzComponent } from './xyz/xyz.component';
+import { ProjectDetailsComponent } from './projects/project-details/project-details.component';
 
 const appRoutes: Routes = [
   { path: '', component: ContainerComponent },
-  { path: 'projects', component: ProjectsComponent },
+  {
+    path: 'projects',
+    component: ProjectsComponent,
+    children: [{ path: ':id', component: ProjectDetailsComponent }],
+  },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
   { path: 'chat', component: ChatComponent },
@@ -30,7 +34,7 @@ const appRoutes: Routes = [
     ContainerComponent,
     ChatComponent,
     LiveChatComponent,
-    XyzComponent,
+    ProjectDetailsComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
