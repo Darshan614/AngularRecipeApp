@@ -18,7 +18,10 @@ const appRoutes: Routes = [
   {
     path: 'projects',
     component: ProjectsComponent,
-    children: [{ path: ':id', component: ProjectDetailsComponent }],
+  },
+  {
+    path: 'project-detail',
+    component: ProjectDetailsComponent,
   },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
