@@ -21,6 +21,10 @@ h1 {
   letter-spacing: 1px;
   width: 100%;
   text-align: center;
+  padding-top: 90px;
+}
+.name {
+  margin-top: 300px;
 }
 h4 {
   color: white;
@@ -29,7 +33,7 @@ h4 {
   /* text-transform: uppercase; */
   font-size: 250%;
   position: absolute;
-  top: 30%;
+  top: 50%;
   /* letter-spacing: 1px; */
   width: 100%;
   text-align: center;
